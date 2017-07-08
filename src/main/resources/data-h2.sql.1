@@ -1,0 +1,7 @@
+--create table author(id integer,first_name varchar(100),last_name varchar(100));
+--create table post(id integer,title varchar(100),body varchar(400), author_id integer, FOREIGN KEY (author_id) REFERENCES public.author(id), posted_on date );
+--ALTER TABLE post ADD FOREIGN KEY (author_id)  REFERENCES public.author(id) ;
+
+--insert into author(id,first_name,last_name) values (1,'Sai','Guru');
+--insert into post(id,title,body,author_id,posted_on) values (1,'Guru Pournima','Fasting',1,CURRENT_DATE());
+--insert into post(id,title,body,author_id,posted_on) values (2,'Krishna Jayanthi','Lord krishna',1,CURRENT_DATE());
